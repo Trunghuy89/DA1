@@ -19,6 +19,7 @@ class Controller
             require_once "../app/views/admin/layout.php";
         } else {
             require_once "../app/views/$view.php";
+            
         }
     }
 }
